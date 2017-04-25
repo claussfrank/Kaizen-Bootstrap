@@ -1,7 +1,10 @@
+*{
+  margin: 0px;
+}
 header{
   background-color: white;
 }
-li{
+.liHeader{
   display: inline-block;
   padding: 20px;
   list-style: none;
@@ -24,6 +27,30 @@ a{
   display: inline-block;;
   float: right;
 }
-li:hover{
+.liHeader:hover{
   background-color: whitesmoke;
+}
+footer{
+  background-color: 	#282828;
+  color: white;
+  bottom: 0%;
+  margin-top: 10px;
+  font-family: helvetica; 
+}
+.linkFooter{
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  list-style: none;
+  display: inline-block;
+
+}
+.paddingFooter{
+  padding: 0px 40px;
+  font-size: 10px;
+  font-family: helvetica;
+}
+.redesFooter:hover{
+  background-color: none;
+  text-decoration: underline;
 }
