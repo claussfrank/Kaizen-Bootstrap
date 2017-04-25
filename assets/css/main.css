@@ -1,0 +1,83 @@
+
+#Dos {
+  width: 100%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2.3em;
+  font-family: 'Roboto', sans-serif;
+  color: #636261;
+  margin-top: 10px;
+
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: #636261;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.pSeccionDos {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #777777;
+  font-size: 1.19em;
+  width: 75%;
+  margin-left: 130px;
+}
+
+hr {
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.imgDos {
+    width: 360px;
+    margin-left: 20px;
+}
+
+.imgDescripcionSeccion2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  clear: both;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  color: #777777;
+  width: 93%;
+  margin-left: 13px;
+}
+
+.imgDescripcionSeccion3 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  clear: both;
+  color: #777777;
+}
+
+.linkP{
+  text-decoration: none;
+}
+
+#botonDos{
+  background-color: white;
+  color: #563d7c;
+  border-radius: 5px;
+  border: 1px solid #563d7c;
+  width: 220px;
+  height: 50px;
+  margin-left: 42%;
+  margin-top: 10px;
+  font-size: 1.05em;
+  }
+
+
+.areas {
+  width: 30%;
+  float: left;
+  margin-left: 2.5%;
+}
