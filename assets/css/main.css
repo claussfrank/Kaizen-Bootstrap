@@ -71,7 +71,7 @@
     margin-top: 580px;
     margin-left: 47%;
     position:absolute;
-
+}
 
 #Dos {
   width: 100%;
@@ -154,8 +154,7 @@ hr {
   width: 30%;
   float: left;
   margin-left: 2.5%;
-
-
+}
 
 
 .parrafoTres{
@@ -187,7 +186,7 @@ hr {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   clear:both;
-
+}
 
 header{
   background-color: white;
@@ -223,7 +222,7 @@ footer{
   color: white;
   bottom: 0%;
   margin-top: 10px;
-  font-family: helvetica; 
+  font-family: helvetica;
 }
 .linkFooter{
   color: white;
