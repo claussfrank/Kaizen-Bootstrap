@@ -1,0 +1,29 @@
+header{
+  background-color: white;
+}
+li{
+  display: inline-block;
+  padding: 20px;
+  list-style: none;
+}
+a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+#bootAny{
+  font-size: 20px;
+}
+#listaUno{
+  display: inline-block;
+  float: left;
+  width: 70%;
+}
+#listaDos{
+  width: 30%;
+  display: inline-block;;
+  float: right;
+}
+li:hover{
+  background-color: whitesmoke;
+}
