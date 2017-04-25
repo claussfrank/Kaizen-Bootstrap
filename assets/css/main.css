@@ -8,6 +8,7 @@
   width: 100%;
   height: 660px;
   position: relative;
+  clear: both;
 }
 .letraB{
     margin-top: 200px;
@@ -190,6 +191,7 @@ hr {
 
 header{
   background-color: white;
+  float: left;
 }
 .liHeader{
   display: inline-block;
@@ -207,12 +209,14 @@ a{
 #listaUno{
   display: inline-block;
   float: left;
-  width: 70%;
+  width: 60%;
 }
 #listaDos{
   width: 30%;
   display: inline-block;;
   float: right;
+  /*margin-right:0px;*/
+
 }
 .liHeader:hover{
   background-color: whitesmoke;
