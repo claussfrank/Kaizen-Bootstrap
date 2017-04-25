@@ -4,10 +4,31 @@
     <meta charset="utf-8">
     <title>Kaizen</title>
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
   </head>
 
   <body>
-    <header></header>
+    <header>
+      <div id="listaUno">
+        <ul >
+          <li id="bootAny" class="liHeader"><span>Bootstrap</span></li>
+            <li class="liHeader"><a href="">Getting started</a></li>
+            <li class="liHeader"><a href="">Css</a></li>
+            <li class="liHeader"><a href="">Components</a></li>
+            <li class="liHeader"><a href="">JavaScript</a></li>
+            <li class="liHeader"><a href="">Customize</a></li>
+
+        </ul>
+      </div>
+      <div id="listaDos">
+        <ul >
+            <li class="liHeader"><a href="">Theme</a></li>
+            <li class="liHeader"><a href="">Expo</a></li>
+            <li class="liHeader"><a href="">Blog</a></li>
+        </ul>
+      </div>
+    </header>
 
     <section id="Uno">
       <div class="pantEntrada">
@@ -23,25 +44,29 @@
 
 
     <section id="Dos">
-      <h1 class="tituloSeccionDos">Designed for everyone, everywhere.</h1>
+      <h2 >Designed for everyone, everywhere.</h2>
       <p class="pSeccionDos">
         Bootstrap makes front-end web development faster and easier.
         It's made for folks of all skill levels, devices of all shapes,
         and projects of all sizes.
       </p>
+      <hr>
 
-      <div class="">
-        <img src="assets/img/sass-less.png" alt="">
+      <div class="areas">
+        <img class="imgDos" src="assets/img/sass-less.png" alt="">
         <h3>Preprocessors</h3>
         <p class="imgDescripcionSeccion2">
           Bootstrap ships with vanilla CSS, but its source code utilizes
-          the two most popular CSS preprocessors,<a href="#">Less</a> and <a href="#">Sass</a>. Quickly
+          the two most popular CSS preprocessors, <a class="linkP" href="#">Less</a> and <a class="linkP" href="#">Sass</a>. Quickly
           get started with precompiled CSS or build on the source.
+
+
+
         </p>
       </div>
 
-      <div class="">
-        <img src="assets/img/devices.png" alt="">
+      <div class="areas">
+        <img class="imgDos" src="assets/img/devices.png" alt="">
         <h3>One framework, every device.</h3>
         <p class="imgDescripcionSeccion2">
           Bootstrap easily and efficiently scales your websites and applications
@@ -49,8 +74,8 @@
         </p>
       </div>
 
-      <div class="">
-        <img src="assets/img/components.png" alt="">
+      <div class="areas">
+        <img class="imgDos" src="assets/img/components.png" alt="">
         <h3>Full of features</h3>
         <p class="imgDescripcionSeccion2">
           With Bootstrap, you get extensive and beautiful documentation for
@@ -60,16 +85,61 @@
 
       </div>
 
-        <p class="imgDescripcionSeccion2">
+        <p class="imgDescripcionSeccion3">
           Bootstrap is open source. It's hosted, developed, and maintained on GitHub.
         </p>
 
-        <button type="button" name="button">View the GitHub project</button>
+        <button  id="botonDos" type="button" name="button">View the GitHub project</button>
 
     </section>
 
-    <section id="Tres"></section>
-    <footer></footer>
+    <section id="Tres">
+       <div>
+        <h2 id="tituloSeccionTres">Built with Bootstrap</h2>
+        <p class="parrafoTres">Million of amazing sites the web across the web are being built with Bootstrap. Get started on your own <br> with our growing <a href="#">collection of examples</a> or by exploring of our favorites.</p>
+        <div>
+          <a href="#"><img id="imagenUno"src="assets/img/built1.jpg"></a>
+        </div>
+         <div>
+          <a href="#"><img class="imagenTres" src="assets/img/built2.jpg"></a>
+        </div>
+         <div>
+          <a href="#"><img class="imagenTres" src="assets/img/built3.jpg"></a>
+        </div>
+        <div>
+         <a href="#"><img class="imagenTres" src="assets/img/built4.jpg"></a>
+       </div>
+        <hr id="lineaTres">
+        <p class="parrafoTresDos">We showcase dozens of inspiring projects built with Bootstrap on the Bootstrap Expo.</p>
+        <a>Explore the Expo</a>
+      </div>
+    </section>
+    <footer>
+      <div class="">
+        <ul>
+          <li class="linkFooter"><a href="#" class="linkFooter redesFooter">GitHub</a></li>
+          <li class="linkFooter"><a href="#" class="linkFooter redesFooter">Twitter</a></li>
+          <li class="linkFooter"><a href="#" class="linkFooter redesFooter">Examples</a></li>
+          <li class="linkFooter"><a href="#" class="linkFooter redesFooter">About</a></li>
+        </ul>
+        <p class="paddingFooter">
+          Designed and built with all the love in the world by <a href="#" class="linkFooter">@mdo</a>and
+          <a href="#" class="linkFooter">@fat</a>
+          . Maintained by the
+          <a href="#" class="linkFooter">core team</a>
+           with the help of
+          <a href="#" class="linkFooter">our contributors</a>
+          .
+        </p>
+        <p class="paddingFooter">
+          Code licensed
+          <a href="#" class="linkFooter">MIT</a>
+          , docs
+          <a href="#"class="linkFooter">CC BY 3.0</a>
+          .
+        </p>
+      </div>
+    </footer>
 
   </body>
 </html>
