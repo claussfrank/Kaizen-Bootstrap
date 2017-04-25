@@ -80,7 +80,7 @@ hr {
   width: 30%;
   float: left;
   margin-left: 2.5%;
-
+}
 *{
   margin: 0px;
 }
@@ -115,7 +115,7 @@ hr {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   clear:both;
-
+}
 
 header{
   background-color: white;
@@ -151,7 +151,7 @@ footer{
   color: white;
   bottom: 0%;
   margin-top: 10px;
-  font-family: helvetica; 
+  font-family: helvetica;
 }
 .linkFooter{
   color: white;
