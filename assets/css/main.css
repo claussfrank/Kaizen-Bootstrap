@@ -1,11 +1,10 @@
 header{
   background-color: red;
-  position: absolute;
+
 }
 li{
   display: inline-block;
-  padding: 5px;
-
+  padding: 20px;
   list-style: none;
 }
 a{
@@ -13,9 +12,7 @@ a{
   text-decoration: none;
   padding: 10px;
 }
-a:hover{
 
-}
 #bootAny{
   font-size: 20px;
 }
@@ -29,4 +26,8 @@ a:hover{
   width: 30%;
   display: inline-block;;
   float: right;
+}
+li:hover{
+  background-color: whitesmoke;
+
 }
